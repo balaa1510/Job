@@ -316,14 +316,20 @@ footer{
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    background: white;
+    width: 500px;
+    background: rgba(23, 22, 22, 0.484);
     border-radius: 10px;
+    height: 60%;
+    opacity:1;
+}
+.center h1{
+    margin-top:2rem;
 }
  .center h1{
     text-align: center;
     padding: 0 0 20px 0;
     border-bottom: 1px solid silver;
+    color: #ffffff;
 }
 .center form{
     padding: 0 40px;
@@ -331,7 +337,7 @@ footer{
 }
 form .txt_field{
     position: relative;
-    border-bottom:2px solid #adadad;
+    border-bottom:2px solid #ffffff;
     margin: 30px 0;
 }
 .txt_field input{
@@ -347,7 +353,7 @@ form .txt_field{
     position:absolute;
     top:50%;
     left:5px;
-    color: #adadad;
+    color: #ffffff;
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
@@ -373,7 +379,7 @@ form .txt_field{
 }
 .pass{
     margin: -5px 0 20px 5px;
-    color: #a6a6a6;
+    color: #ffffff;
     cursor: pointer;
 }
 .pass:hover{
@@ -386,7 +392,7 @@ input[type="submit"]{
     background-color:#2691d9 ;
     border-radius:25px ;
     font-size: 18px;
-    color: #e9f4fb;
+    color: #ffffff;
     font-weight: 700;
     cursor: pointer;
     outline: none;
@@ -395,17 +401,20 @@ input[type="submit"]:hover{
     border-color:#2691d9;
     transition: .5s;
 }
-.signup_link{
+.signin_link{
     margin: 30px 0;
     text-align: center;
     font-size: 16px;
     color: #666666;
 }
-.signup_link a{
+.signin_link a{
     color: #2691d9;
     text-decoration: none;
 }
-.signup_link a:hover{
+.signin_link p{
+    color:#ffffff;
+}
+.signin_link a:hover{
     text-decoration: underline;
 }
 
